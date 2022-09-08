@@ -7,6 +7,23 @@ This is the official repository for UltimateChairs provided on SpigotMC (https:/
 ## API
 Please make sure to add softdepend: [UltimateChairs] to your plugin.yml.
 
+```diff
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.DemoPulse</groupId>
+        <artifactId>UltimateChairs</artifactId>
+        <version>VERSION HERE</version>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+```
 ### Events
 
 ```diff
