@@ -14,7 +14,7 @@ public class UltimateChairsAPI {
     /**
      * Creates a new Chair on a Block for a Player.
      * @author DemoPulse
-     * @since 1.4.8
+     * @since 1.5.4
      * @param block Block on which chair should be created.
      * @param player Player to sit on this Chair.
      * @return Chair object or <code>null</code> if the creation was unsuccessful.
@@ -26,7 +26,7 @@ public class UltimateChairsAPI {
     /**
      * Removes chair and dismounts sitting player.
      * @author DemoPulse
-     * @since 1.4.8
+     * @since 1.5.4
      * @param chair Chair object to remove.
      */
     public static void removeChair(Chair chair) {
@@ -36,7 +36,7 @@ public class UltimateChairsAPI {
     /**
      * Find chair player is sitting on.
      * @author DemoPulse
-     * @since 1.5.5
+     * @since 1.5.4
      * @param player Player.
      * @return Chair object or <code>null</code> if player chair does not exist.
      */
@@ -47,7 +47,7 @@ public class UltimateChairsAPI {
     /**
      * List all chairs.
      * @author DemoPulse
-     * @since 1.5.5
+     * @since 1.5.4
      * @return List of all Chair objects.
      */
     public static Collection<Chair> getChairs() {
