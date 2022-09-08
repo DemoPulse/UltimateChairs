@@ -1,0 +1,16 @@
+name: UltimateChairs
+main: me.DemoPulse.UltimateChairs.UltimateChairs
+version: ${project.version}
+author: DemoPulse
+website: https://www.spigotmc.org/resources/80434/
+description: Allow players to sit on stairs, slabs, carpets & any other block.
+api-version: 1.13
+softdepend: [WorldGuard, Residence, GriefPrevention, PlotSquared, Lands]
+commands:
+  chair:
+    description: Chair command.
+    usage: /<command>
+    aliases: [chairs]
+  sit:
+    description: Sit down on any block bellow.
+    usage: /<command>
